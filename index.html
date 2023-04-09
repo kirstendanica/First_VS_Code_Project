@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@300;400&display=swap"
+rel="stylesheet">
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+rel="stylesheet"
+/>
+  
+
+  <title>Mac and Cheese Society</title>
+</head>
+
+<body>
+
+  
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+  
+    <!-- Background image -->
+    <div class="p-5 text-center bg-image" style="
+        background-image: url('./resources/images/macaroni-cheese.jpg');
+        height: 400px;
+      ">
+      <div class="mask" style="background-color: rgba(229, 228, 228, 0.315);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Mac & Cheese Society</h1>
+            <h4 class="mb-3">For the love of macaroni & cheese!</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+
+
+  <main>
+    <section class="recipes">
+      <div class="recipes-heading">
+      <h2>Find Your Perfect Macaroni and Cheese Recipe Today</h2>
+      <p>A space containing the best mac and cheese recipes collected around the web and <em>honest</em> ratings from <em>actual</em> mac and cheese 
+        enthusiasts.</p>
+      </div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="/resources/images/carousel-m1.jpg" class="d-block w-100" alt="Macaroni & Cheese Recipe 1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://www.bbcgoodfood.com/recipes/best-ever-macaroni-cheese-recipe" target="_blank">Best Ever Macaroni & Cheese</a></h5>
+                <p>via British Broadcasting Corporation Good Food</p>
+                <p>"This perfect baked macaroni cheese recipe comes with a creamy cheese sauce, a hint of mustard and 
+                  <br>uses leftover French stick for its crunchy topping"                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="/resources/images/carousel-m2.jpg" class="d-block w-100" alt="Macaroni & Cheese Recipe 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://www.thechunkychef.com/family-favorite-baked-mac-and-cheese/" target="_blank">Creamy Baked Macaroni & Cheese</a></h5>
+                <p>via The Chunky Chef</p>
+                <p>This baked mac and cheese is a family favorite recipe, loved by both children and adults. It uses a combination of cheeses, layered in the dish as well as melted into a rich and creamy cheese sauce, 
+                  for the ultimate in cheesy deliciousness!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/resources/images/carousel-m3.jpg" class="d-block w-100" alt="Macaroni & Cheese Recipe 3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://www.jamieoliver.com/recipes/pasta-recipes/a-killer-mac-n-cheese/" target="blank">A Killer Mac 'n' Cheese</a></h5>
+                <p>via Jamie Oliver</p>
+                <p>“Proper American-style mac and cheese – beautifully gooey and full-on, in-yer-face cheesy! Mac ’n’ cheese’ is 
+                  a classic American pasta dish – everyone loves it.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+    </section>
+    <section class="community">
+      <h2>Join the Forum & Community</h2>
+      <p>Become part of our unique community where members can discuss all things mac and cheese, including: recipe tips, cooking techniques, and their favorite variations.</p>
+    
+      <div class="community-contain">
+      <div class="newsletter-col col">
+        <div class="newsletter middle">
+          <h3>This feature is in the works</h3>
+          <h4>Subscribe to get immediate access when it's ready!</h4>
+          <form>
+            <input type="text" placeholder="Enter your email"/>
+            <button type="button" class="newsletter-button">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mac and Cheese Society</p>
+  </footer>
+
+
+
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+></script>
+<script src="https://kit.fontawesome.com/82dc32e835.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>

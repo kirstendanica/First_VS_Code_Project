@@ -1,0 +1,226 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  max-width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  background:	hsl(0, 0%, 95%);
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 6.25rem;
+  color: hsl(4, 99%, 73%);
+  font-style: normal;
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: hsl(4, 99%, 73%);
+  font-weight: 500;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: hsl(224, 99%, 73%);
+  font-size: normal;
+  font-weight: 300;
+}
+
+nav {
+  background: hsl(0, 0%, 95%);
+}
+
+.navbar-nav {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 13%);
+}
+
+
+.recipes-heading {
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+	text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-inner {
+  height: 0;
+  padding-bottom: 25%; /* this sets carousel aspect ratio (4:1 here) */
+}
+
+.carousel-item {
+  position: absolute !important; /* Bootstrap is insistent */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.carousel-inner > .item {
+  position: relative;
+  max-height: 400px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background-color:  rgba(255, 255, 255, 0.774);
+}
+
+.community {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+}
+
+.community-contain {
+  background: hsl(0, 0%, 95%);
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.col {
+  flex: 1;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.newsletter input, 
+.newsletter button {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 25rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.24rem;
+  border-radius: 16px;
+  border: 1px solid hsla(0, 6%, 55%, 0.804);
+  outline: none;
+}
+
+.newsletter-button {
+  background: hsl(32, 99%, 73%);
+  color: hsla(0, 40%, 98%, 0.997);
+  cursor: pointer;
+}
+
+.newsletter-button:hover {
+  opacity: 0.7;
+}
+
+.about {
+  align-items: center;
+  display: flex;
+  flex: 1 0 auto; 
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about a {
+  text-decoration: none;
+  color: hsl(4, 72%, 61%);
+}
+
+.about p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about a:hover {
+  color: hsl(32, 99%, 73%);
+}
+
+ul li {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  color: hsl(0, 0%, 13%);
+}
+
+.types-cheese_pasta {
+  margin-top: 2rem;
+}
+
+.pasta-row img {
+  margin-top: 0.5rem;
+  margin-right: 0.6rem;
+}
+
+.pasta-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.pasta-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cheese-row img {
+  margin-right: 0.6rem;
+}
+
+.cheese-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.cheese-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  background: hsl(224, 99%, 73%);
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color:hsl(0, 0%, 95%);
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
